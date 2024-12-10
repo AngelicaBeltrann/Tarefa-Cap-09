@@ -1,0 +1,77 @@
+body {
+    background: #f2eeeed4; /* Cor de fundo suave para o corpo da página */
+    height: 100vh; /* Define a altura do corpo para ocupar 100% da altura da janela */
+    display: flex; /* Usa flexbox para alinhar os itens no corpo */
+    justify-content: center; /* Centraliza horizontalmente os itens dentro do body */
+    align-items: center; /* Centraliza verticalmente os itens dentro do body */
+    margin: 0; /* Remove qualquer margem padrão do body */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /* Define a fonte usada na página */
+}
+
+.login-container {
+    width: 300px; /* Define a largura do contêiner do formulário */
+    height: 600px; /* Define a altura do contêiner do formulário */
+    background: linear-gradient(to bottom, #eb2685, #7a093f, #250210); /* Cria um gradiente de cor para o fundo do contêiner */
+    border-radius: 10px; /* Adiciona bordas arredondadas no contêiner */
+    padding: 20px; /* Adiciona um preenchimento interno de 20px em todas as direções */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Aplica uma sombra sutil ao contêiner */
+    display: flex; /* Usa flexbox para organizar os itens dentro do contêiner */
+    flex-direction: column; /* Organiza os itens em uma coluna vertical */
+    justify-content: flex-start; /* Alinha os itens ao topo do contêiner */
+    align-items: center; /* Centraliza os itens horizontalmente */
+}
+
+.login-form {
+    width: 100%; /* Garante que o formulário ocupe toda a largura disponível do contêiner */
+}
+
+.login-form h5 {
+    margin-bottom: 15px; /* Adiciona uma margem abaixo do título */
+    font-weight: bold; /* Torna o texto do título em negrito */
+    color: #fff; /* Define a cor do texto como branco */
+    font-size: 18px; /* Define o tamanho da fonte do título */
+    text-align: center; /* Centraliza o título horizontalmente */
+}
+
+.form-control {
+    width: 100%; /* Garante que o campo de entrada ocupe toda a largura disponível */
+    border-radius: 10px; /* Adiciona bordas arredondadas aos campos de entrada */
+    border: 1px solid #d11771; /* Define uma borda de 1px e cor vermelha para os campos */
+    padding: 15px; /* Adiciona um preenchimento interno de 15px nos campos */
+    margin: 10px 0; /* Adiciona um espaço de 10px acima e abaixo dos campos */
+    box-sizing: border-box; /* Inclui o preenchimento e a borda no cálculo da largura e altura do campo */
+}
+
+.form-control:focus {
+    border-color: #b01560; /* Altera a cor da borda para um tom de rosa escuro quando o campo está em foco */
+    box-shadow: 0 0 5px rgba(209, 23, 113, 0.5); /* Adiciona um efeito de sombra ao redor do campo em foco */
+}
+
+.btn-primary {
+    background-color: #df136f; /* Define a cor de fundo do botão */
+    border: none; /* Remove a borda do botão */
+    border-radius: 10px; /* Adiciona bordas arredondadas ao botão */
+    padding: 13px 70px; /* Adiciona preenchimento interno ao botão (13px vertical e 70px horizontal) */
+    color: #fff; /* Define a cor do texto no botão como branco */
+    margin: 20px 0; /* Adiciona 20px de margem acima e abaixo do botão */
+    width: 100%; /* Faz o botão ocupar toda a largura disponível */
+    box-sizing: border-box; /* Inclui o preenchimento e a borda no cálculo da largura e altura do botão */
+}
+
+.btn-primary:hover {
+    background-color: #b01560; /* Altera a cor de fundo para um tom mais escuro de rosa quando o botão for hover */
+}
+
+.text-center {
+    text-align: center; /* Centraliza o texto dentro do container de links */
+}
+
+.text-center a {
+    font-size: 12px; /* Define o tamanho da fonte do link */
+    color: #fff; /* Define a cor do link como branca */
+    text-decoration: none; /* Remove a sublinhado do link */
+}
+
+.text-center a:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao link quando ele for hover */
+}
